@@ -62,6 +62,7 @@ app.index_string = f"""
         </style>
     </head>
     <body>
+    <p style={TEXT_COLOR}>Autor: Martin, Python Dashboard mit Dash und Plotly</p>
         {{%app_entry%}}
         <footer>
             {{%config%}}
