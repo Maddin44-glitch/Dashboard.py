@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 nasa = pd.read_csv(
-    "/Users/martinvasas/DATA/NASA Exoplanets Data.csv", parse_dates=False
+    "NASA Exoplanets Data.csv", parse_dates=False
 )
 
 numeric_cols = [
